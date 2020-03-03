@@ -3,13 +3,13 @@
 
 body{
 	background-color: rgba(220,221,214,1.00);
-	
-	
+
+
 }
 .topleftbtn{
 	/*color: #0700a5;*/
 	text-align:right;
-	margin-top:35px; 
+	margin-top:35px;
 	margin-right:40px;
 }
 .primary-btn {
@@ -159,8 +159,8 @@ body{
 }
 
 .devtitle {
-	color: #0700a5; 
-	font-weight:700; 
+	color: #0700a5;
+	font-weight:700;
 	font-size:150%;
 }
 
@@ -169,14 +169,15 @@ body{
 }
 
 .devrating {
-	margin-left:-90px; 
-	margin-top:0.6rem;
-	/*color: #0700B8 !important;*/
-	color: rgb(11, 0, 153) !important;
-	background-color: rgb(255, 223, 0) !important;
+margin-left: -85px;
+/*margin-top: 0.6rem;*/
+color: #0700B8 !important;
+color: rgb(11, 0, 153) !important;
+background-color: rgb(255, 223, 0) !important;
+margin-top: 48px !important;
 }
 .notonimgdevrating {
-	margin-left: 2px; 
+	margin-left: 2px;
 	margin-top:0.6rem;
 	/*color: #0700B8 !important;*/
 	color: rgb(11, 0, 153) !important;
@@ -201,7 +202,7 @@ body{
 }
 
 .imagegrid {
-	
+
 }
 .imagegrid img{
 	border-radius: 10px;
@@ -309,4 +310,3 @@ box-shadow: 0px 0px 5px 0px rgba(207,196,207,1);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
 }
-

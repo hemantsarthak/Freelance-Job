@@ -1,8 +1,11 @@
 /*@import url('//fonts.googleapis.com/css?family=Roboto');*/
-
+*{
+	
+}
 
 body{
-	background-color: rgba(220,221,214,1.00);
+/*	background-color: rgba(220,221,214,1.00);*/
+	background: #f8f8f8 !important;
 
 
 }
@@ -125,7 +128,7 @@ body{
 
 .centersearch input[type=text] {
   border: none;
-  background-color: none;
+  background-color: #f8f8f8;
   color:  #0700a5;
   outline: 0;
   font-weight: 700;
@@ -174,7 +177,7 @@ margin-left: -85px;
 color: #0700B8 !important;
 color: rgb(11, 0, 153) !important;
 background-color: rgb(255, 223, 0) !important;
-margin-top: 48px !important;
+margin-top: 49px !important;
 }
 .notonimgdevrating {
 	margin-left: 2px;
@@ -309,4 +312,10 @@ box-shadow: 0px 0px 5px 0px rgba(207,196,207,1);
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
+}
+
+.fa-gradient {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
